@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head> 
+<body>
+    <style>
+     #mydiv1{
+        border: 1px solid;
+        width: 150px;
+        margin: 20px 0px 0px 170px;
+        position: absolute;
+        top: 45px;
+     }
+    #myDiv{
+        border: 1px solid;
+        width: 150px;
+    }
+    #mydiv2{
+        border: 1px solid;
+        width: 150px;
+    }
+    #mydiv3{
+        border: 1px solid;
+        width: 150px;
+        position: absolute;
+        margin: 30px 0px 0px 170px;
+        top: 90px;
+    }
+
+    </style>
+    <h2>Change Background Color of Div in JavaScript</h2>
+    <div id="myDiv">1</div><br>
+    <div id="mydiv1">2</div>
+    <br>
+    <div id="mydiv2"> 3</div><br>
+    <div id="mydiv3">4</div><br>
+    <button type="button" onclick="changeStyle()">Click Me</button>
+    <button type="reset">Reset</button>
+    <script>
+    function changeStyle(){
+        var element = document.getElementById("myDiv");
+        var element1=document.getElementById("mydiv1");
+        var element2=document.getElementById("mydiv2");
+        var element3=document.getElementById("mydiv3");
+        element1.style.backgroundColor="red";
+        element.style.backgroundColor = "#00FF00";
+        element2.style.backgroundColor="yellow";
+        element3.style.backgroundColor="brown";
+        
+    }
+    </script>
+</body>
+</html>
