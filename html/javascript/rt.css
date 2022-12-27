@@ -1,0 +1,61 @@
+#menu{
+    background:rgb(113, 180, 119);
+    position: fixed;
+}
+.btn{
+    font-size: 20px;
+}
+img{
+    height: 300px;
+    width:300px;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#menu ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    float: left;
+}
+#menu ul a{
+    color: rgb(104, 91, 91);
+    text-decoration: none;
+    display: block;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#menu ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#menu ul ul{
+    display: none;
+    background: green;
+}
+#menu ul li:hover >ul{
+    display: block;
+}
+#menu ul ul ul {
+   top:-4px;
+   left:100px;
+
+
+}
+#menu ul ul li{
+    float: none;
+    width:100px ;
+}
+#menu ul li:hover{
+    background: green;
+}
+#menu ul ul li:hover{
+    border-left: 3px solid #2c3e50;
+}

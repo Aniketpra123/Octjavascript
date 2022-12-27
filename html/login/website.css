@@ -1,0 +1,148 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;
+    z-index: 1;
+}
+.dropdown-content a {
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+  }
+   .dropbtn:hover {
+    background-color: #3e8e41;
+  }
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+table,th{
+
+    border:1px solid black;
+    width:50px;
+    height: 70px;
+    text-align: center;
+  }
+
+  .container{
+    height:500px;
+    width:500px;
+    border: 2px solid black;
+    margin-top: 12px;
+    margin-left: 200px;
+}
+.title{
+   margin-left: 350px;
+  
+    
+}
+input[type=text],input[type=password]{
+   margin: 0px;
+    width: 60%;
+    padding: 12px 14px;
+    box-sizing: border-box;
+}
+.main{
+    margin-left: 15px;
+}
+button {
+    background-color:red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    opacity: 0.5;
+  }
+  .container2{
+    background-color: rgb(178, 183, 187);
+    height: 200px;
+    width: 300px;
+  }
+  .cancelbtn{
+    background-color: red;
+    margin: 5px 0;
+    padding: 10px 10px;
+    width: 55px;
+  }
+  .psw{
+    float: right;
+    margin-top: 37px;
+  }
+  input[type=text]:focus{
+    border: 1px solid  red;
+    color: deeppink;
+  }
+  input[type=checkbox]:checked{
+    height: 50px;
+  }
+  .main2{
+    height:506px;
+    width: 550px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    margin: -522px -1px 1px 730px;
+    background-color: coral;
+  }
+  .one{
+    height: 280px;
+    width: 240px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color: red;
+}
+ @media screen and (min-width:480px){
+  body{
+    background-color: #04AA6D;
+  }
+ }
+ audio{
+  float: left;
+  margin-top: 20px;
+ }
+ .navbar:hover {
+  display: block;
+
+ }
+ 

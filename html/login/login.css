@@ -1,0 +1,47 @@
+.container{
+    height:500px;
+    width:500px;
+    border: 2px solid black;
+    margin-top: 12px;
+    margin-left: 200px;
+}
+.title{
+   margin-left: 350px; 
+}
+input[type=text],input[type=password]{
+   margin: 0px;
+    width: 60%;
+    padding: 12px 14px;
+    box-sizing: border-box;
+}
+.main{
+    margin-left: 15px;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    opacity: 0.5;
+  }
+  .container2{
+    background-color: rgb(178, 183, 187);
+    height: 200px;
+    width: 300px;
+  }
+  .cancelbtn{
+    background-color: red;
+    margin: 5px 0;
+    padding: 10px 10px;
+    width: 55px;
+  }
+  .psw{
+    float: right;
+    margin-top: 37px;
+  }
+  

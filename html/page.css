@@ -1,0 +1,49 @@
+.main{
+
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    background-image:url("F:/html/login.jpg");
+}
+#h1{
+
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+div.main input[type=text]:focus{
+    color:gray;
+    font-weight: bold;
+}
+.sub:hover{
+    color:chartreuse;
+}
+.main2{
+
+  
+display: inline-block;
+height: 298px;
+width: 281px;
+border: 1px solid black;
+margin-left: 10px;
+margin-top: -35px;
+}
+div.main2:hover{
+    color: brown;
+}
+#corner1{
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  }
+#corner2{
+    border-radius: 30px 60px 20px 10px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}

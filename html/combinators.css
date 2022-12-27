@@ -1,0 +1,17 @@
+div>h1{
+    background-color: brown;
+}
+div h5{
+    color: pink;
+}
+div ~p{
+    color: aqua;
+
+}
+.pad{
+    height: 100px;
+    width: 100px;
+    border: 1px dotted black;
+    padding-left: 10px;
+}
+
