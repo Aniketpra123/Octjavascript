@@ -33,17 +33,4 @@ margin-top: -35px;
 div.main2:hover{
     color: brown;
 }
-#corner1{
-    border-radius: 15px 50px 30px 5px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-  }
-#corner2{
-    border-radius: 30px 60px 20px 10px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
+
