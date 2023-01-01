@@ -5,3 +5,7 @@ function eventfun(data){
     console.log(data.value);
 
 }
+function focusevent(){
+    document.getElementById("input1").style.background="aqua";
+    
+}
