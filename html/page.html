@@ -1,24 +1,8 @@
 <link rel="stylesheet" href="F:/html/page.css">
 <script src="page.js"></script>
-
-<div class="main">
-    
-    <title> Registration Form </title>
-    <h1 id="h1">Registration Form</h1><br>
- <label for="l1" class="l1">Full name  <input type="text" name="text1"id="name"placeholder="enter full name" required><br></label><br><br>
- <label for="l2" class="l2">DOB  <input type="date" required></label><br><br>
- <label for="l3" class="l3">Mobile No <input type="number" required placeholder="enter 10 digit no"></label><br><br>
- <label for="l4" class="l4">Gender<input type="radio" name="r1">Male<input type="radio" name="r1">Female</label><br><br>
- <label for="l5" class="l5">Address<input type="textarea"></label><br><br>
- <input type="submit"   value="Submit"/>  
- <button type="reset" class="btn btn-block btn-danger">Reset</button>
-    </form>
-</div><br><br>
-
-<form onsubmit="return valid()">
-<input type="text" id="text1">
-<span id="message"></span>
-<input type="submit">
+<form action="/action.php" id="w" onsubmit="return ValidateEmail(this)">
+Email Address:<input type="text" id="mail">
+<input type="submit" onsubmit="validateEmail()" value="submit">
 </form>
 
    

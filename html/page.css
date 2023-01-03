@@ -1,36 +1,17 @@
-.main{
+#fname{
+    color: green;
+    border-radius: 20px;
+}
+#lname{
 
-    position: relative;
-    float: left;
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-    background-image:url("F:/html/login.jpg");
+    border-radius: 20px;
 }
-#h1{
-
-    margin: auto;
-    color: black;
-    text-align: center;
+#mob{
+     border-radius:20px ;
 }
-div.main input[type=text]:focus{
-    color:gray;
-    font-weight: bold;
+#date{
+    border-radius: 20px;
 }
-.sub:hover{
-    color:chartreuse;
+span{
+    color: red;
 }
-.main2{
-
-  
-display: inline-block;
-height: 298px;
-width: 281px;
-border: 1px solid black;
-margin-left: 10px;
-margin-top: -35px;
-}
-div.main2:hover{
-    color: brown;
-}
-
