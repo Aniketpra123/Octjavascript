@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./loginform.component.scss']
 })
 export class LoginformComponent {
+  car:string="swift";
+getdata():any{
+  return "hello frd";
+}
 
 }

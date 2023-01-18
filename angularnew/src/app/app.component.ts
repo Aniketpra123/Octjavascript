@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularnew';
+  myfunction(){
+    console.log("welcome");
+    
+  }
+    keyup(event:any) {
+    console.log("up");
+    
+   }
 }
