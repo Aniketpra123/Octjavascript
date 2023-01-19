@@ -16,7 +16,12 @@ student={
   age:25
 
 }
-item=[10,20,30]
+item=[10,20,30];
+myevent(evt:any){
+  console.warn(evt);
+  
+}
+myname:string="aniket";
 
 }
 
