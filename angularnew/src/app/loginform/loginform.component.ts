@@ -22,6 +22,6 @@ myevent(evt:any){
   
 }
 myname:string="aniket";
-
+surname:string="prabhudesai";
 }
 
