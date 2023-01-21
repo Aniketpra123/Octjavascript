@@ -12,4 +12,11 @@
 <input type="text" (keyup)="myevent('key up event')">
 name:<input type="text" value={{myname}}>
 name1<input type="text" value=100 disabled>
-<input type="text"[(ngModel]="surname">
+<input type="text"[(ngModel)]="myname">
+<h1>{{myname}}</h1>
+
+<br> <br>
+<input type="text" name="user-name" value="{{name}}" disabled="{{disable}}">
+<br><br>
+<input type="text" name="user-name" [value]="name" [disabled]="disable">
+

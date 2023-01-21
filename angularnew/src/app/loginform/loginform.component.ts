@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./loginform.component.scss']
 })
 export class LoginformComponent {
+  name="peter";
+  disable=false;
   num=200;
   car:string="swift";
+
 getdata(b:any){
   return "hello frd";
 }
